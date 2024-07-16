@@ -1,0 +1,22 @@
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    list-style: none;
+    li{
+        padding: 0 1rem;
+    }
+}
+.box{
+    border: 1px solid #fff;
+    margin: 2rem;
+    padding: 2rem;
+    width: 200px;
+    border-radius: 1rem;
+}
+.res-container{
+    display: flex;
+    flex-wrap: wrap;
+}
