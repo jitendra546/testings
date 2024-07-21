@@ -1,9 +1,12 @@
 {
   "name": "react",
+  "homepage": "https://jitendra546.github.io/my-app",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "npx parcel index.html",
     "build": "npx parcel build index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,6 +19,7 @@
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
+    "gh-pages": "^6.1.1",
     "process": "^0.11.10"
   }
 }

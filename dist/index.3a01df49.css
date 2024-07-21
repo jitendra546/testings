@@ -18,6 +18,11 @@ ul {
   width: 200px;
   margin: 2rem;
   padding: 2rem;
+
+  & img {
+    width: 150px;
+    height: 150px;
+  }
 }
 
 .res-container {
