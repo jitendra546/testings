@@ -7,10 +7,10 @@ import Body from "./components/Body";
 
 let AppLayout = () => {
   return (
-    <>
+    <div>
       <Header />
       <Body />
-    </>
+    </div>
   );
 };
 let root = ReactDOM.createRoot(document.getElementById("root"));
