@@ -5,13 +5,13 @@ import Body from "./components/Body";
 
 
 
-let AppLayout = () => {
+let App = () => {
   return (
-    <div>
-      <Header />
-      <Body />
-    </div>
+    <>
+      <Header/>
+      <Body/>
+    </>
   );
 };
 let root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<AppLayout />);
+root.render(<App/>);

@@ -3,7 +3,6 @@ import {URL} from "../../utils/constants.js";
 let Header = () => {
   return (
     <div className="d-flex">
-      {console.log(URL)}
       <img
         src={URL} 
         style={{ width: "100px" }}
